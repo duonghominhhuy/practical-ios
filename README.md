@@ -9,9 +9,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@duonghominhhuy-blue.svg?style=flat)](http://twitter.com/duonghominhhuy)
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/duonghominhhuy/practical-ios/pulls)
 
-
-- Coming soon...
-
+- [GraphQL with Apollo](https://github.com/duonghominhhuy/practical-ios/tree/master/ios-graphql-with-apollo)
 
 ### Find me on:
 

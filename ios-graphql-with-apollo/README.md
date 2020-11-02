@@ -1,11 +1,13 @@
 # iOS - GraphQL with Apollo
 
 - Video by Brian Advent on [YouTube](https://youtu.be/YoKlTbYdFPs)
+- Apollo iOS documents: `https://www.apollographql.com/docs/ios/`
+- Countries GraphQL API: `https://github.com/trevorblades/countries`
 
 ### Preview
 
 <p align="middle">
-      <img src="preview/preview.png" width="600" />
+      <img src="preview/preview.png" width="800" />
 </p>
 
 ### Features
@@ -33,9 +35,7 @@ class Network {
 10. Use GraphQL in ContentView.swift:
 ```swift
 struct ContentView: View {
-    
     @State var countryEmoji = ""
-    
     var body: some View {
         Text(countryEmoji)
             .padding()
