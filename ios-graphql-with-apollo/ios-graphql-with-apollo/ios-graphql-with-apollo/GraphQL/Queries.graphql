@@ -1,0 +1,9 @@
+query SpecificCpuntry {
+  country(code: "US") {
+    name
+    native
+    capital
+    currency
+    emoji
+  }
+}
