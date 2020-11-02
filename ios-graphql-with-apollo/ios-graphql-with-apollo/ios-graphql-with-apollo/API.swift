@@ -4,12 +4,12 @@
 import Apollo
 import Foundation
 
-public final class SpecificCpuntryQuery: GraphQLQuery {
+public final class SpecificCountryQuery: GraphQLQuery {
   /// The raw GraphQL definition of this operation.
   public let operationDefinition: String =
     """
-    query SpecificCpuntry {
-      country(code: "US") {
+    query SpecificCountry {
+      country(code: "VN") {
         __typename
         name
         native
@@ -20,7 +20,7 @@ public final class SpecificCpuntryQuery: GraphQLQuery {
     }
     """
 
-  public let operationName: String = "SpecificCpuntry"
+  public let operationName: String = "SpecificCountry"
 
   public init() {
   }
@@ -30,7 +30,7 @@ public final class SpecificCpuntryQuery: GraphQLQuery {
 
     public static var selections: [GraphQLSelection] {
       return [
-        GraphQLField("country", arguments: ["code": "US"], type: .object(Country.selections)),
+        GraphQLField("country", arguments: ["code": "VN"], type: .object(Country.selections)),
       ]
     }
 

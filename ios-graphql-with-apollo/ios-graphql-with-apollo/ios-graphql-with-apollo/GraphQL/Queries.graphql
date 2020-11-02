@@ -1,5 +1,5 @@
-query SpecificCpuntry {
-  country(code: "US") {
+query SpecificCountry {
+  country(code: "VN") {
     name
     native
     capital
